@@ -1,12 +1,3 @@
-#---------------------------------------------------------------------------------------------
-# Copyright (c) Microsoft Corporation. All rights reserved.
-# Licensed under the MIT License. See License.txt in the project root for license information.
-#---------------------------------------------------------------------------------------------
-
-# This Dockerfile uses the latest code from the Git repo.
-#   Clone the repo then run 'docker build' with this Dockerfile file to get the latest versions of
-#   *all* CLI modules as in the Git repo.
-
 FROM python:3.6.2-jessie
 
 WORKDIR azure-cli
